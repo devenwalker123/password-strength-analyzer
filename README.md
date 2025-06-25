@@ -1,29 +1,23 @@
-# password-strength-analyzer
 # CYB333 Final Project
 
-# Password Strength Analyzer
+# 🔐 Password Strength Analyzer
 
-## Project Description
-A beginner-friendly Python tool that analyzes the strength of user passwords based on multiple criteria. It will give real-time feedback and suggestions to improve password security.
+A Python tool that helps users evaluate how secure their passwords are. This command-line application analyzes passwords based on length, character variety (uppercase, lowercase, digits, symbols), and gives clear suggestions for improvement. Built as a security automation project for CYB333.
 
-## Objective
-To create a tool that checks for common password weaknesses and helps users create more secure passwords.
+## 🎯 Objective
+The goal of this project is to develop a password analyzer Python tool. It will encourage awareness of secure password practices while helping me strengthen my foundational skills in scripting, regular expressions, design.
 
-## Features
-- Checks for length, uppercase/lowercase letters, numbers, and special characters
-- Optional detection of dictionary words
-- Strength score and feedback suggestions
-- Simple command-line interface
+## ✅ Features
+- Checks for password length
+- Detects uppercase/lowercase letters, numbers, and special characters
+- Calculates a password strength score (0–6)
+- Provides targeted suggestions to improve weak passwords
+- No external libraries required
+- Runs directly from the terminal
 
-## Setup Instructions
-1. Clone the repository:
-
-In terminal:
-git clone https://github.com/devenwalker123/password-strength-analyzer.git
-cd analyzer_code.py
-
-2. Make sure Python 3.x is installed.
-
-## How to Run the Code
-In terminal:
+## 📋 Steps to Use This Tool
+1. Open your terminal or command prompt.
+2. Navigate to the proper directory if not already there:
+   ```powershell
+   cd "Final Project"
 
